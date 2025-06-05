@@ -1,0 +1,173 @@
+  .teacher-body {
+    background-image: url('./images/login-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180vh; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.typeUser {
+    display: none;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+
+
+.innerTeacher {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fill { 
+    text-align: center; 
+    border-radius: 50px;
+    background-color: #F2F8FC;
+    width: 500px;
+    height: 900px;
+    padding: 20px;
+    padding-top: 90px;
+    margin: 0 auto;  
+    margin-left: 435px;
+}
+
+.welcome {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 38%;
+    margin-left: 20px;
+}
+
+.papilo { 
+    padding-right: 50%; 
+}
+
+.inp1, .inp2, .inp3, .inp4, .inp5{ 
+    padding: 10px;
+    margin-bottom: 4%;
+    width: 40%;
+    text-align: center;
+    background: transparent;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.inp6 {
+     padding: 10px;
+    margin-bottom: 4%;
+    width: 95%;
+    text-align: center;
+    background: transparent;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.inpX  {
+     padding: 10px;
+     margin-bottom: 4%;
+     width: 70%;
+     text-align: center;
+     background: transparent;
+     background-color: #fff;
+     border-radius: 20px;
+     margin-top: 10px;
+     padding-bottom: 5px;
+}
+.inpX1  {
+     padding: 10px;
+     margin-bottom: 4%;
+     width: 63%;
+     text-align: center;
+     background: transparent;
+     background-color: #fff;
+     border-radius: 20px;
+     margin-top: 10px;
+     padding-bottom: 5px;
+}
+.inpY {
+     padding: 10px;
+     margin-bottom: 4%;
+     width: 45%;
+     text-align: center;
+     background: transparent;
+     background-color: #fff;
+     border-radius: 20px; 
+     margin-top: 10px;
+     padding-bottom: 5px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.theme {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 520;
+     font-size: 15px;
+}
+.btn1, .btn2 {
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    width: 70%;
+    border: none;
+    background-color: rgb(135, 206, 235);
+}
+
+@media screen and (max-width: 600px) {
+    .teacher-body {
+        min-height: 150vh;
+        padding-top: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .innerTeacher {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Twelcome {
+        font-size: 25px; 
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .fill {
+        max-width: 300px; 
+        margin: 0 auto;
+        padding: 20px 10px 40px 10px;
+        height: 115vh;
+        position: inherit;
+    }
+    .play {
+        display: inline;
+    }
+    .inp1, .inp2, .inp3, .inp4, .inp5 {
+        width: 70%;
+        font-size: 15px;
+    }
+    .inp6 {
+        width: 70%;
+    }
+    .inpX, .inpX1, .inpY {
+        width: 75%;
+    }
+}

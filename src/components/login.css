@@ -1,0 +1,120 @@
+.main-body {
+    background-image: url('./images/login-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.typeUser {
+    display: none;
+}
+
+.Loginner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-fill {
+    text-align: center;
+    border-radius: 50px;
+    background-color: #F2F8FC;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    padding-top: 90px;
+    margin: 0 auto;  
+    margin-left: 435px;
+}
+
+.Logwelcome {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 38%;
+    margin-left: 20px;
+}
+
+.Logpapilo { 
+    padding-right: 50%; 
+}
+
+.Loginp1, .Loginp2 { 
+    padding: 10px;
+    margin-bottom: 4%;
+    width: 70%;
+    text-align: center;
+    background: transparent;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.Loginp1 {
+    background-image: url('./images/person.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+}
+
+.Loginp2 {
+    background-image: url('./images/lock.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+}
+
+.Logbtn1, .Logbtn2 {
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    width: 70%;
+    border: none;
+    background-color: rgb(135, 206, 235);
+}
+
+ 
+@media screen and (max-width: 600px) {
+    .main-body {
+        min-height: 100vh;
+        padding-top: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .Loginner {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Logwelcome {
+        font-size: 25px; 
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .main-fill { 
+        max-width: 350px; 
+        margin: 0 auto;
+        height: 30vh auto;
+        padding: 20px 10px 40px 10px;
+    }
+}

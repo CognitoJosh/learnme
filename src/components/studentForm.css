@@ -1,0 +1,171 @@
+  .student-body {
+    background-image: url('./images/login-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 140vh; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.typeUser {
+    display: none;
+}
+
+.Splay {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+
+
+.innerStudent {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Sfill { 
+    text-align: center; 
+    border-radius: 50px;
+    background-color: #F2F8FC;
+    width: 500px;
+    height: 650px;
+    padding: 20px;
+    padding-top: 90px;
+    margin: 0 auto;  
+    margin-left: 435px;
+}
+
+.Swelcome {
+    color: black; 
+    font-weight: bolder; 
+    margin-left: 20px;
+}
+
+.papilo { 
+    padding-right: 50%; 
+}
+
+.Sinp1, .Sinp2, .Sinp3, .Sinp4, .Sinp5{ 
+    padding: 10px;
+    margin-bottom: 4%;
+    width: 40%;
+    text-align: center;
+    background: transparent;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.Sinp6 {
+     padding: 10px;
+    margin-bottom: 4%;
+    width: 95%;
+    text-align: center;
+    background: transparent;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.SinpX  {
+     padding: 10px;
+     margin-bottom: 4%;
+     width: 70%;
+     text-align: center;
+     background: transparent;
+     background-color: #fff;
+     border-radius: 20px;
+     margin-top: 10px;
+     padding-bottom: 5px;
+}
+.SinpX1  {
+     padding: 10px;
+     margin-bottom: 4%;
+     width: 63%;
+     text-align: center;
+     background: transparent;
+     background-color: #fff;
+     border-radius: 20px;
+     margin-top: 10px;
+     padding-bottom: 5px;
+}
+.SinpY {
+     padding: 10px;
+     margin-bottom: 4%;
+     width: 45%;
+     text-align: center;
+     background: transparent;
+     background-color: #fff;
+     border-radius: 20px; 
+     margin-top: 10px;
+     padding-bottom: 5px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.Stheme {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 520;
+     font-size: 15px;
+}
+.Sbtn1, .Sbtn2 {
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    width: 70%;
+    border: none;
+    background-color: rgb(135, 206, 235);
+}
+
+@media screen and (max-width: 600px) {
+    .student-body {
+        min-height: 120vh;
+        padding-top: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .innerSeudent {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Swelcome {
+        font-size: 25px; 
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .Sfill {
+        max-width: 300px; 
+        margin: 0 auto;
+        padding: 20px 10px 40px 10px;
+        height: 90vh;
+        position: inherit;
+    }
+    .Splay {
+        display: inline;
+    }
+    .Sinp1, .Sinp2, .Sinp3, .Sinp4, .Sinp5 {
+        width: 70%;
+        font-size: 15px;
+    }
+    .Sinp6 {
+        width: 70%;
+    }
+    .SinpX, .SinpX1, .SinpY {
+        width: 75%;
+    }
+}
