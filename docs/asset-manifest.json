@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/learme/static/css/main.86f8ea20.css",
+    "main.js": "/learme/static/js/main.3e2985bc.js",
+    "static/js/146.743f1c20.chunk.js": "/learme/static/js/146.743f1c20.chunk.js",
+    "static/media/login-back.jpg": "/learme/static/media/login-back.b786d2df59ffd8ae113f.jpg",
+    "static/media/logo.svg": "/learme/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/learme/index.html",
+    "main.86f8ea20.css.map": "/learme/static/css/main.86f8ea20.css.map",
+    "main.3e2985bc.js.map": "/learme/static/js/main.3e2985bc.js.map",
+    "146.743f1c20.chunk.js.map": "/learme/static/js/146.743f1c20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86f8ea20.css",
+    "static/js/main.3e2985bc.js"
+  ]
+}
